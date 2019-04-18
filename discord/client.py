@@ -145,7 +145,7 @@ class Client:
 
     Attributes
     -----------
-    ws
+    ws: :class:`websockets.client.WebSocketClientProtocol`
         The websocket gateway the client is currently connected to. Could be None.
     loop: :class:`asyncio.AbstractEventLoop`
         The event loop that the client uses for HTTP requests and websocket operations.
